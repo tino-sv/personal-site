@@ -6,6 +6,8 @@ export default function Footer() {
             <span className="text-white/90">~</span>
             <span className="text-blue-400/90">$</span>
             <span className="cursor"></span>
+            <span className="text-green-400/90" ><a href="https://x.com/0xtinodev" target="_blank" rel="noopener noreferrer">x</a></span>
+            <span className="text-green-400/90" ><a href="https://github.com/tino-sv" target="_blank" rel="noopener noreferrer">github</a></span>
          </div>
       </div>
    )
