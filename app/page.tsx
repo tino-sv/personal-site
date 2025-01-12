@@ -22,7 +22,7 @@ export default function Home() {
 
         <section className="space-y-4">
           <h2 className="text-xl">current projects</h2>
-          <a href="https://tinodev.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://kikido.vercel.app/" target="_blank" rel="noopener noreferrer">
             <h3 className="text-red-400/90 mt-4 underline">ToDo.dev</h3></a>
             <p className="text-sm max-w-md">
               typescript-powered todo app with a blog built with vite, react, vercel, tailwind, and supabase
