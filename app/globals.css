@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scanlines {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 0, 0, 0.05) 51%
+  );
+  background-size: 100% 4px;
+  z-index: 50;
+}
+
+.ascii-art {
+  font-size: 4px;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  white-space: pre;
+  font-family: monospace;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor::after {
+  content: "█";
+  animation: blink 1s infinite;
+}
+
+.nav-link {
+  @apply text-orange-400/90 hover:text-orange-300 transition-colors;
+}
+
+.prose br {
+  margin-bottom: 1rem; /* Adjust the spacing as needed */
+}
+
