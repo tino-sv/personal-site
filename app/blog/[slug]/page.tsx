@@ -20,9 +20,9 @@ const blogPosts: Record<string, BlogPost> = {
           target="_blank"
           rel="noopener noreferrer"
           className="text-teal-400 underline"
-        >
+        ><strong>
           framework
-        </a>
+        </strong></a>
         isn't easy, and I've hopped around a bit more than I'd like to
         admit. From Golang, to Python, to Javascript(typescript as
         well yuck), to even Rust(yeah i know). Seeing all of the
@@ -38,7 +38,7 @@ const blogPosts: Record<string, BlogPost> = {
           rel="noopener noreferrer"
           className="text-teal-400"
         >
-          Project-Based-Learning
+          <strong>Project-Based-Learning</strong>
         </a>
         , I was able to follow along with a few projects and learn the
         basics. But i wanted to challenge myself to do something i
@@ -50,7 +50,7 @@ const blogPosts: Record<string, BlogPost> = {
           rel="noopener noreferrer"
           className="text-teal-400"
         >
-          questionaire page
+          <strong>questionaire page</strong>
         </a>
         , that used most of the basic form options as different
         question styles. It was built with vanilla html, javascript,
@@ -72,6 +72,18 @@ const blogPosts: Record<string, BlogPost> = {
         languages and frameworks <strong>suck</strong> according to
         someone. So, pick whatever you want, stick with it, and have
         fun.`,
+      date: '2025-01-12'
+   },
+   '2': {
+      id: '2',
+      title: 'golang is cool',
+      content: ` Last year, I was burnt out building my incredibly simple html
+          questionaire website. I wanted to try things on the backend,
+          but was scared if I'm being honest. I'm not a good programmer,
+          and was even worse at that point in time. C was off limits, as
+          I felt like I wasn't ready for it. Rust looked too hard. Zig is new, but other than <a href="https://ghostty.org" target="_blank" rel="noopener noreferrer" className=" underline"><strong>Ghostty</strong></a>, I hadn't heard much noise around it. The Primeagen was (and still is) very pro Golang, and as a viewer, I was intrigued. It seemed simple, with clean syntax, which is a huge plus for me. I decided to dive into the language.
+          <br/>
+          `,
       date: '2025-01-12'
    }
 }

@@ -16,6 +16,13 @@ const blogPosts: BlogPost[] = [
     date: "2025-01-12",
     excerpt: "As a self-taught programmer, figuring out which 'lane' to go through has been challenging.",
     readingTime: "1 min read"
+  },
+  {
+    id: "2",
+    title: "golang is cool",
+    date: "2025-01-12",
+    excerpt: "why golang is for me",
+    readingTime: "2 min read"
   }
 ]
 
